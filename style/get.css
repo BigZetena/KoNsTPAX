@@ -1,0 +1,27 @@
+.get_background {
+  width: 100%;
+  height: 499px;
+  background: url(../img/bg_get.png) no-repeat center;
+  background-size: 100% auto;
+  background-position-y: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.get_content {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  height: 254px;
+  align-items: center;
+}
+
+.get__title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  margin-bottom: 35px;
+}

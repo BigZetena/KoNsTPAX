@@ -1,0 +1,50 @@
+.footer__background {
+  margin-top: -5px;
+  background-color: #171819;
+}
+
+.footer__signup {
+  padding: 30px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__signup__title {
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.84px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 70px;
+}
+
+.footer__ink {
+  padding: 22px 0 23px 0;
+}
+
+.footer__email {
+  width: 250px;
+  height: 40px;
+  border: 1px solid #979797;
+  border-right: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+  color: #48555b;
+}
+
+.footer__ink-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  text-align: center;
+}
