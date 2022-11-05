@@ -26,6 +26,7 @@
 }
 
 .footer__email {
+  padding-left: 16px;
   width: 250px;
   height: 40px;
   border: 1px solid #979797;
@@ -36,6 +37,10 @@
   line-height: 19px;
   letter-spacing: 0.07px;
   color: #48555b;
+}
+
+.footer__email:focus {
+  outline: none;
 }
 
 .footer__ink-text {
