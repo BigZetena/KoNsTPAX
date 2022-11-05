@@ -1,10 +1,14 @@
+.header {
+  height: 100vh;
+  background: url(../img/bg.png) no-repeat center / cover;
+  padding: 41px 0 71px 0;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
-  background: url(../img/bg.png) no-repeat center / cover;
-  padding: 41px 0 71px 0;
+  height: 100%;
 }
 
 .intro__logoimg {
@@ -48,6 +52,10 @@
   color: #00a4e5;
 }
 
+#subheader {
+  border-bottom: 1px solid #e6e6e6;
+}
+
 .subheader__logo {
   display: block;
   max-width: max-content;
@@ -60,7 +68,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 950px;
 }
 
 .subheader__nav {

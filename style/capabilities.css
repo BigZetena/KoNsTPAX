@@ -8,6 +8,10 @@
   padding-bottom: 80px;
 }
 
+.capabilities__title {
+  text-align: start;
+}
+
 .capabilities__title:before {
   bottom: -11px;
   position: absolute;
@@ -39,6 +43,7 @@
 .capabilites__projects {
   width: 295px;
   padding: 38px 22px 39px 23px;
+  border: 1px solid #e6e6e6;
 }
 
 .capabilites__subtitle {
@@ -47,4 +52,31 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.426667px;
+}
+
+@media (max-width: 1024px) {
+  .capabilities__header {
+    flex-direction: column;
+  }
+  .capabilites__header-content {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .capabilites__benefits {
+    flex-direction: column;
+    gap: 15px 0;
+  }
+  .capabilites__projects {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .capabilites__header-content {
+    flex-wrap: wrap;
+    gap: 20px 0;
+  }
+  .capabilities__header-text {
+    max-width: 100%;
+  }
 }

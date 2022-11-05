@@ -1,4 +1,4 @@
-.footer__background {
+footer {
   margin-top: -5px;
   background-color: #171819;
 }
@@ -19,6 +19,9 @@
   text-align: center;
   color: #ffffff;
   margin-right: 70px;
+}
+.form__wrapper {
+  display: flex;
 }
 
 .footer__ink {
@@ -52,4 +55,15 @@
   letter-spacing: 0.846154px;
   color: #ffffff;
   text-align: center;
+}
+
+@media (max-width: 762px) {
+  .footer__signup {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+
+  .footer__signup__title {
+    margin: 0 auto;
+  }
 }

@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="intro header__intro">
+      <div class="container intro">
         <img
           class="intro__logoimg"
           src="./img/logo_intro.svg"
@@ -28,34 +28,36 @@
           </p>
         </div>
 
-        <a href="#" class="intro__link">SCROLL DOWN</a>
-      </div>
-      <div class="subheader">
-        <img
-          src="./img/subheader_logo.svg"
-          alt="construct_logo"
-          class="subheader__logo"
-        />
-        <nav class="subheader__nav">
-          <div class="subheader__link-inner">
-            <a href="#" class="subheadder__link">home</a>
-          </div>
-          <div class="subheader__link-inner">
-            <a href="#" class="subheadder__link">about</a>
-          </div>
-          <div class="subheader__link-inner">
-            <a href="#" class="subheadder__link">services</a>
-          </div>
-          <div class="subheader__link-inner">
-            <a href="#" class="subheadder__link">work</a>
-          </div>
-          <div class="subheader__link-inner">
-            <a href="#" class="subheadder__link">contact</a>
-          </div>
-        </nav>
+        <a href="#subheader" class="intro__link">SCROLL DOWN</a>
       </div>
     </header>
     <main>
+      <nav id="subheader">
+        <div class="container subheader">
+          <img
+            src="./img/subheader_logo.svg"
+            alt="construct_logo"
+            class="subheader__logo"
+          />
+          <div class="subheader__nav">
+            <div class="subheader__link-inner">
+              <a href="#" class="subheadder__link">home</a>
+            </div>
+            <div class="subheader__link-inner">
+              <a href="#" class="subheadder__link">about</a>
+            </div>
+            <div class="subheader__link-inner">
+              <a href="#" class="subheadder__link">services</a>
+            </div>
+            <div class="subheader__link-inner">
+              <a href="#" class="subheadder__link">work</a>
+            </div>
+            <div class="subheader__link-inner">
+              <a href="#" class="subheadder__link">contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
       <section class="story">
         <div class="container">
           <h2 class="title story__title">our story</h2>
@@ -172,20 +174,21 @@
     </main>
   </body>
   <footer>
-    <div class="footer__background">
+    <div class="container">
       <form class="footer__signup">
         <h4 class="footer__signup__title">Newsletter Signup</h4>
-
-        <input
-          type="email"
-          name="email"
-          id="email"
-          class="footer__email"
-          placeholder="test@youremail.com"
-          maxlength="100"
-          required
-        />
-        <button type="submit" class="body-link">signup</button>
+        <div class="form__wrapper footer__email-wrapper">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="footer__email"
+            placeholder="test@youremail.com"
+            maxlength="100"
+            required
+          />
+          <button type="submit" class="body-link">signup</button>
+        </div>
       </form>
       <div class="footer__ink">
         <p class="footer__ink-text">

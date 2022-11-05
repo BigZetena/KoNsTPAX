@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 941px;
+  max-width: 940px;
   margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -59,4 +63,10 @@ body {
   width: 150px;
   text-align: center;
   border: none;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
 }
