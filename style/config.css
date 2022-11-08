@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 940px;
   margin: 0 auto;

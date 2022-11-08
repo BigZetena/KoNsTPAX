@@ -1,7 +1,8 @@
 .menu {
   position: sticky;
   top: 0;
-  max-width: max-content;
+  width: 230px;
+  height: 300px;
   float: right;
   z-index: 3;
 }
