@@ -3,6 +3,7 @@
   top: 0;
   max-width: max-content;
   float: right;
+  z-index: 3;
 }
 
 .menu__check {
@@ -55,6 +56,7 @@
   transform: translate(100%, 0);
   transition: 0.5s;
   border-radius: 0 0 0 5px;
+  box-shadow: 2px 2px 5px #48555b;
 }
 
 .menu__link {
@@ -66,4 +68,10 @@
 .menu__check:checked ~ .menu__list {
   transform: none;
   transition: 0.5s;
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
 }
