@@ -5,9 +5,8 @@
 }
 
 html {
-  width: 100%;
-  max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -15,15 +14,12 @@ html {
   margin: 0 auto;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   color: #48555b;
   font-weight: 700;
+  overflow-x: hidden;
 }
 
 .title {
